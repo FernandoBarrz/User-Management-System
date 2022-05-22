@@ -24,6 +24,33 @@
     color: white;
   }
 
+/* Add Client btn */
+
+.modal-action-btn-add {
+	box-shadow: 0px 10px 14px -7px #3ac11b;
+	background:linear-gradient(to bottom, #3bda32 5%, #2ec206 100%);
+	background-color:#52b10e;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #0b94c2;
+}
+.modal-action-btn-add:hover {
+	background:linear-gradient(to bottom, #0392a8 5%, #32a1c9 100%);
+	background-color:#0392a8;
+}
+.modal-action-btn-add:active {
+	position:relative;
+	top:1px;
+}
+
+
 /* Button Edit */
 
 .table-action-button-edit {
@@ -174,15 +201,7 @@
 
 /* Modal Style */
 
-body{
-    background:url(https://subtlepatterns.com/patterns/crossword.png);
-    font-family:sans-serif;
-    color:#333;
-    text-align:center;
-  }
-  h1{
-    margin:80px 0
-  }
+
   .btn {
     background: #428bca;
     border: #357ebd solid 0px;
@@ -257,6 +276,7 @@ body{
     -o-transition: -o-transform 0.3s ease-out;
     transition: transform 0.3s ease-out;
   }
+
   .modal-body {
     padding: 20px;
   }
@@ -278,4 +298,11 @@ body{
   }
   .modal-header h2 {
     font-size: 20px;
+  }
+
+
+  /* Add Client btn Style */
+
+  #btnAgregar {
+
   }

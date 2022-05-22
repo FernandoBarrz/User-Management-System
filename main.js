@@ -1,4 +1,4 @@
-const openModaleHTML = document.querySelector('.openmodale');
+const openModaleHTML = document.querySelector('#btnAddClient');
 const closeModaleHTML = document.querySelector('.closemodale');
 
 const modaleHTML = document.querySelector('.modale');
