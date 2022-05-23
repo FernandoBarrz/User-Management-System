@@ -41,13 +41,15 @@
         <a href="#" class="btn-close closemodale" aria-hidden="true">&times;</a>
       </div>
       <div class="modal-body">
-        <input type="text" name="u" placeholder="First Name" size="20" /><br>
-        <input type="text" name="u" placeholder="Last Name" size="20" /><br>
-        <input type="text" name="u" placeholder="Email" size="20" /><br>
-        <input type="text" name="u" placeholder="Phone" size="20" /><br>
+        <input id="txtID" type="hidden"  placeholder="ID" size="20" /><br>
+        <input id="txtFirstname" type="text"  placeholder="First Name" size="20" /><br>
+        <input id="txtLastname" type="text" placeholder="Last Name" size="20" /><br>
+        <input id="txtEmail" type="text"  placeholder="Email" size="20" /><br>
+        <input id="txtPhone" type="text"  placeholder="Phone" size="20" /><br>
+        <input id="txtAddress" type="text"  placeholder="Adress" size="20" /><br>
         
       <div class="modal-footer">
-        <a href="#" class="btn" id="btn_ingresar">Save</a>
+        <a href="#" class="btn" id="btn_ingresar" onclick="save()">Save</a>
       </div>
     </div>
   </div>
@@ -56,43 +58,25 @@
 
 <!-- <p><a href="#" class="btn btn-big openmodale">Open Login Box</a></p> -->
 
+<h1>Clients Data </h1>
 
-
-<a href="#" id="btnAddClient" class="modal-action-btn-add">Add Client</a>
+<a href="#" id="btnAddClient" class="modal-action-btn-add" onclick="">Add Client</a>
 
 
 <table id="customers">
-  <tr>
+  <thead>
     <th>First Name</th>
     <th>Last Name</th>
     <th>Email</th>
     <th>Phone Number</th>
+    <th>Address</th>
     <th>Action</th>
-  </tr>
-  <tr>
-    <td>Alfreds</td>
-    <td>Anders</td>
-    <td>alfred@gmail.com</td>
-    <td>5556545645</td>
-    <td>
-        <button>Edit</button>
-        <button>Delete</button>
-    </td>
-  </tr>
-  <tr>
-    <td>Berglunds</td>
-    <td>Ladlund</td>
-    <td>berglud@gmail.com</td>
-    <td>65564567823</td>
-    <td>
-        
-        <a href="#" class="table-action-button-edit">Edit</a>
-        <a href="#" class="table-action-button-delete">Delete</a>
-    </td>
-  </tr>
- 
+  </thead>
+  <tbody>
 
+  </tbody>
 </table>
+
 <script src="main.js"></script>
 </body>
 </html>

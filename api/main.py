@@ -87,7 +87,7 @@ def updateClient():
 @cross_origin()
 def removeClient(id):
     cur = mysql.connection.cursor()
-    cur.execute("DELETE FROM clients WHERE clients.id = "+ str(id) +";")
+    cur.execute("DELETE FROM clients WHERE id = "+ str(id) +" ;")
     mysql.connection.commit()
     return "Client deleted"
 
