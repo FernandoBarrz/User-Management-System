@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded",init);
 // API URL TODO
 // TODO
 
-const URL_API = 'https://guarded-beyond-74039.herokuapp.com'
+const URL_API = 'https://guarded-beyond-74039.herokuapp.com/api/clients'
 let clients = []
 
 openModaleHTML.addEventListener("click", (e)=>{
