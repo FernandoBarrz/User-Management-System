@@ -4,10 +4,3 @@ env/
 
 api/venv-cms
 
-/.env
-
-
-api/.env
-
-
-*/.env
