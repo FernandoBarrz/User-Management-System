@@ -94,5 +94,5 @@ def removeClient(id):
 
 
 if __name__ == '__main__':
-    app.run(None, 3000, True)
+    print("Running...")
 
