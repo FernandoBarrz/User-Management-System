@@ -1,6 +1,9 @@
 /venv
 env/
+/.env
+.env
 
+.DS_Store
 
 api/venv-cms
 
